@@ -1,0 +1,16 @@
+@import "_variables";
+@import "_fonts";
+
+.font(
+  @font-family: @font-family-default,
+  @color: @font-color-default,
+  @font-size: @font-size-default) {
+  font-family: @font-family;
+  color: @color;
+  font-size: @font-size;
+}
+.round(@width, @height) {
+  width: @width;
+  height: @height;
+  border-radius: 50%;
+}

@@ -1,0 +1,202 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    header.header {
+      background-size: 80vh;
+      .header__inner {
+        .main-block {
+          &__text {
+            .search-form {
+              width: 380px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  body {
+    header {
+      .location {
+        height: 60px;
+        &-name {
+          font-size: 23px;
+        }
+      }
+      .header__inner {
+        margin: 0 70px;
+        .main-block {
+
+          &__text {
+
+            h1 {
+              font-size: 104px;
+            }
+            h2 {
+              font-size: 34px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1440px){
+  body {
+    header {
+      .location {
+        height: 60px;
+        bottom: 5%;
+        &-name {
+          font-size: 23px;
+        }
+      }
+      .header__inner {
+        margin: 0 50px;
+        .navbar {
+          .menu {
+            margin-left: 50px;
+          }
+        }
+        .main-block {
+          &__text {
+            h1 {
+              font-size: 130px;
+            }
+            h2 {
+              font-size: 45px;
+            }
+            .search-form {
+              height: 70px;
+              input {
+                font-size: 16px;
+                width: 100%;
+              }
+              button {
+                height: 100%;
+                text-align: right;
+                padding-right: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
+    body {
+      header {
+        .header__inner {
+          margin: 0 30px;
+          .navbar {
+            .menu {
+              margin: 10px;
+              width: 100%;
+              justify-content: space-around;
+              &__item {
+                margin: 0;
+              }
+            }
+          }
+          .main-block {
+            &__image {
+              max-width: 50%;
+              img {
+                object-position: left;
+              }
+            }
+            &__text {
+              h1 {
+                font-size: 104px;
+              }
+              h2 {
+                font-size: 34px;
+              }
+              .search-form {
+                height: 60px;
+                input {
+                  font-size: 16px;
+                  width: 100%;
+                }
+                button {
+                  height: 100%;
+                  text-align: right;
+                  padding-right: 30px;
+                }
+              }
+            }
+          }
+        }
+        .location {
+          height: 60px;
+          padding-left: 30px;
+          &-name {
+            font-size: 23px;
+          }
+        }
+      }
+    }
+}
+
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
+      body {
+        header.header {
+          height: 50vh;
+          background-size: contain;
+          &:after {
+            height: 50vh;
+          }
+          .location {
+            top: 40vh;
+            bottom:auto;
+          }
+          .header__inner {
+            .navbar {
+              .menu {
+                margin: 10px;
+                width: 100%;
+                justify-content: space-around;
+                &__item {
+                  margin: 0;
+                }
+              }
+            }
+            .main-block {
+              height: 50vh;
+              &__text {
+                h1 {
+                  font-size: 104px;
+                }
+                h2 {
+                  font-size: 34px;
+                }
+                .search-form {
+                  height: 60px;
+                  padding-left: 20px;
+                  width: 320px;
+                  input {
+                    font-size: 16px;
+                    width: 100%;
+                  }
+                  button {
+                    width: 150px;
+                    height: 100%;
+                    text-align: right;
+                    padding-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+}
